@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "0.7.0" %}
-{% set md5 = "31763073af6e6e405e0b0cefea49fe7e" %}
+{% set version = "0.8.0" %}
+{% set md5 = "0e2712f08ca569314eb432d73a989122" %}
 
 package:
   name: {{ name|lower }}
@@ -25,15 +25,16 @@ requirements:
 
   run:
     - python
-    - jupyter_core >=4.0
+    - jupyter_core >=4.4.0
     - jupyter_client >=4.2.0
     - notebook >=5.1.0,<6.0
     - jupyter_kernel_gateway >=1.1.2
     - traitlets >=4.2.0
-    - tornado >=4.2.0
+    - tornado >=4.2.0,<5.0
     - requests >=2.7,<3.0
     - paramiko >=2.1.2
-    - pexpect
+    - pexpect >=4.2.0
+    - pycrypto >=2.6.1
 
 test:
   imports:
@@ -61,4 +62,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - lresende
     - liukun1016
