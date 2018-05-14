@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "0.8.0" %}
-{% set md5 = "0e2712f08ca569314eb432d73a989122" %}
+{% set version = "0.9.0" %}
+{% set md5 = "b41a248455a440a18f2edd81aec4e843" %}
 
 package:
   name: {{ name|lower }}
