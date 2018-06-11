@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc
 
 # C extensions
 *.so
@@ -69,3 +70,6 @@ target/
 
 # Debug-related
 .kube/
+
+
+build_artefacts
