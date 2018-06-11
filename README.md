@@ -16,12 +16,15 @@ Jupyter Notebooks to share resources across an Apache Spark cluster
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jupyter_enterprise_gateway-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jupyter_enterprise_gateway-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jupyter_enterprise_gateway-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jupyter_enterprise_gateway-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_enterprise_gateway/badges/version.svg)](https://anaconda.org/conda-forge/jupyter_enterprise_gateway)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jupyter_enterprise_gateway/badges/downloads.svg)](https://anaconda.org/conda-forge/jupyter_enterprise_gateway)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyter_enterprise_gateway-green.svg)](https://anaconda.org/conda-forge/jupyter_enterprise_gateway) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyter_enterprise_gateway.svg)](https://anaconda.org/conda-forge/jupyter_enterprise_gateway) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyter_enterprise_gateway.svg)](https://anaconda.org/conda-forge/jupyter_enterprise_gateway) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyter_enterprise_gateway.svg)](https://anaconda.org/conda-forge/jupyter_enterprise_gateway) |
 
 Installing jupyter_enterprise_gateway
 =====================================
