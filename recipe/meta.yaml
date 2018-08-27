@@ -12,8 +12,10 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 1
+  script:
+    - python -m pip install --no-deps --ignore-installed .
+    - python -m pip install yarn-api-client>=0.2.3
   entry_points:
     - jupyter-enterprisegateway = enterprise_gateway:launch_instance
 
