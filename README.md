@@ -1,7 +1,7 @@
 About jupyter_enterprise_gateway
 ================================
 
-Home: https://github.com/jupyter-incubator/enterprise_gateway
+Home: https://github.com/jupyter/enterprise_gateway
 
 Package license: BSD-3-Clause
 

@@ -51,17 +51,18 @@ test:
     - jupyter enterprisegateway --help
 
 about:
-  home: https://github.com/jupyter-incubator/enterprise_gateway
+  home: https://github.com/jupyter/enterprise_gateway
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.md
   summary: 'A web server for spawning and communicating with remote Jupyter kernels'
 
   description: |
-    Jupyter Enterprise Gateway is a lightweight, multi-tenant, scalable and secure gateway that enables
-    Jupyter Notebooks to share resources across an Apache Spark cluster
+    Jupyter Enterprise Gateway A lightweight, multi-tenant, scalable and secure gateway
+    that enables Jupyter Notebooks to share resources across distributed clusters such
+    as Apache Spark, Kubernetes and others.
   doc_url: http://jupyter-enterprise-gateway.readthedocs.io/en/latest/
-  dev_url: https://github.com/jupyter-incubator/enterprise_gateway
+  dev_url: https://github.com/jupyter/enterprise_gateway
 
 extra:
   recipe-maintainers:
