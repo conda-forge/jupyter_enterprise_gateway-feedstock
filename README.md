@@ -9,8 +9,9 @@ Feedstock license: BSD 3-Clause
 
 Summary: A web server for spawning and communicating with remote Jupyter kernels
 
-Jupyter Enterprise Gateway is a lightweight, multi-tenant, scalable and secure gateway that enables
-Jupyter Notebooks to share resources across an Apache Spark cluster
+Jupyter Enterprise Gateway A lightweight, multi-tenant, scalable and secure gateway
+that enables Jupyter Notebooks to share resources across distributed clusters such
+as Apache Spark, Kubernetes and others.
 
 
 Current build status
