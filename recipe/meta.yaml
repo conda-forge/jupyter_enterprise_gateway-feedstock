@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "9d652b650fc8a9fd5ffc428d34835e97aed956f704f5458db855533fa96f7c7d" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "d15e32a115c679116b757c65f3a53df1afca9ecdeb7ead616de672e85f4826ba" %}
 
 package:
   name: {{ name|lower }}
@@ -26,18 +26,18 @@ requirements:
 
   run:
     - python
-    - jupyter_core >=4.4.0
     - jupyter_client >=5.2.0
-    - notebook >=5.3.0,<6.0
-    - jupyter_kernel_gateway >=2.0.0
-    - traitlets >=4.2.0
-    - tornado >=4.2.0
-    - requests >=2.7,<3.0
+    - jupyter_core >=4.4.0
+    - jupyter_kernel_gateway >=2.3.0
+    - notebook >=5.7.6,<6.0
     - paramiko >=2.1.2
     - pexpect >=4.2.0
     - pycrypto >=2.6.1
     - pyzmq >=17.0.0
-    - yarn-api-client 0.2.3
+    - requests >=2.7,<3.0
+    - tornado >=4.2.0
+    - traitlets >=4.2.0
+    - yarn-api-client >=0.3.3
 
 test:
   imports:
@@ -67,5 +67,4 @@ about:
 extra:
   recipe-maintainers:
     - lresende
-    - liukun1016
     - kevin-bates
