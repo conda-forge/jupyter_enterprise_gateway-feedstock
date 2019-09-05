@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script:
     - python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -26,6 +26,8 @@ requirements:
 
   run:
     - python >=3.5
+    - docker-py >=3.5.0
+    - jinja2 >=2.10
     - jupyter_client >=5.2.0
     - jupyter_core >=4.4.0
     - jupyter_kernel_gateway >=2.4.0
@@ -33,6 +35,7 @@ requirements:
     - paramiko >=2.1.2
     - pexpect >=4.2.0
     - pycrypto >=2.6.1
+    - python-kubernetes >=4.0.0
     - pyzmq >=17.0.0
     - requests >=2.7,<3.0
     - tornado >=4.2.0
