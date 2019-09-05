@@ -31,11 +31,11 @@ requirements:
     - jupyter_client >=5.2.0
     - jupyter_core >=4.4.0
     - jupyter_kernel_gateway >=2.4.0
-    - kubernetes >=4.0.0
     - notebook >=5.7.6,<7.0
     - paramiko >=2.1.2
     - pexpect >=4.2.0
     - pycrypto >=2.6.1
+    - python-kubernetes >=4.0.0
     - pyzmq >=17.0.0
     - requests >=2.7,<3.0
     - tornado >=4.2.0
