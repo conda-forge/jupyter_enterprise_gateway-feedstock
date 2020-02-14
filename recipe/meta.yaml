@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "88d7af1ef9fe3afecd0ec4306438084efa9569e212f3b112c98f49195dab17c2" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "ed2a2ec8863e741d41385fc1ff2947f781f061f01afcf0da2026cc520a9f13f3" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script:
     - python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -30,7 +30,6 @@ requirements:
     - jinja2 >=2.10
     - jupyter_client >=5.2.0
     - jupyter_core >=4.4.0
-    - jupyter_kernel_gateway >=2.4.0
     - notebook >=5.7.6,<7.0
     - paramiko >=2.1.2
     - pexpect >=4.2.0
@@ -39,8 +38,8 @@ requirements:
     - pyzmq >=17.0.0
     - requests >=2.7,<3.0
     - tornado >=4.2.0
-    - traitlets >=4.2.0
-    - yarn-api-client >=0.3.6,<0.4.0
+    - traitlets >=4.3.3
+    - yarn-api-client >=1.0
 
 test:
   imports:
