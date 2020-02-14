@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "88d7af1ef9fe3afecd0ec4306438084efa9569e212f3b112c98f49195dab17c2" %}
+{% set version = "2.1.0" %}
+{% set sha256 = "ed2a2ec8863e741d41385fc1ff2947f781f061f01afcf0da2026cc520a9f13f3" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script:
     - python -m pip install --no-deps --ignore-installed .
   entry_points:
