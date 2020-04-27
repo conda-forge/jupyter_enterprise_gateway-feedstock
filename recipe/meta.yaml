@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "ed2a2ec8863e741d41385fc1ff2947f781f061f01afcf0da2026cc520a9f13f3" %}
+{% set version = "2.1.1" %}
+{% set sha256 = "7f827b11086219dd1dd4ccb5c666af4aec3be231fa173ebc5a245b1158043b6e" %}
 
 package:
   name: {{ name|lower }}
@@ -57,7 +57,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.md
-  summary: 'A web server for spawning and communicating with remote Jupyter kernels'
+  summary: A web server for spawning and communicating with remote Jupyter kernels
 
   description: |
     Jupyter Enterprise Gateway A lightweight, multi-tenant, scalable and secure gateway
