@@ -27,13 +27,14 @@ requirements:
   run:
     - python >=3.5
     - docker-py >=3.5.0
+    - future >=0.18.2
     - jinja2 >=2.10
     - jupyter_client >=5.2.0
     - jupyter_core >=4.4.0
     - notebook >=5.7.6,<7.0
     - paramiko >=2.1.2
     - pexpect >=4.2.0
-    - pycrypto >=2.6.1
+    - pycryptodomex >=3.9.7
     - python-kubernetes >=4.0.0
     - pyzmq >=17.0.0
     - requests >=2.7,<3.0
