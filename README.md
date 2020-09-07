@@ -5,7 +5,7 @@ Home: https://github.com/jupyter/enterprise_gateway
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A web server for spawning and communicating with remote Jupyter kernels
 
