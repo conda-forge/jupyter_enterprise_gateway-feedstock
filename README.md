@@ -5,9 +5,13 @@ Home: https://github.com/jupyter/enterprise_gateway
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_enterprise_gateway-feedstock/blob/master/LICENSE.txt)
 
 Summary: A web server for spawning and communicating with remote Jupyter kernels
+
+Development: https://github.com/jupyter/enterprise_gateway
+
+Documentation: http://jupyter-enterprise-gateway.readthedocs.io/en/latest/
 
 Jupyter Enterprise Gateway A lightweight, multi-tenant, scalable and secure gateway
 that enables Jupyter Notebooks to share resources across distributed clusters such
