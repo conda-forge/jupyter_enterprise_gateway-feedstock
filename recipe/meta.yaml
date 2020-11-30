@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "2.3.0" %}
-{% set sha256 = "473078d5624ffc1bd9c9bf23f3a8621a1562266a27d37e2314670fc68902fc53" %}
+{% set version = "2.4.0" %}
+{% set sha256 = "2b01e2612303c83958980c3fcf6ea89e076281e4bb67f6521063e2447c02db46" %}
 
 package:
   name: {{ name|lower }}
@@ -20,7 +20,7 @@ build:
     - jupyter-enterprisegateway = enterprise_gateway:launch_instance
 
 requirements:
-  build:
+  host:
     - python >=3.5
     - pip
 
