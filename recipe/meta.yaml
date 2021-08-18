@@ -29,7 +29,7 @@ requirements:
     - docker-py >=3.5.0
     - future >=0.18.2
     - jinja2 >=2.10
-    - jupyter_client >=6.1
+    - jupyter_client >=6.1,<7.0
     - jupyter_core >=4.6.0
     - notebook >=6.1
     - paramiko >=2.1.2
