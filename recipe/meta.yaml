@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script:
     - python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -40,7 +40,7 @@ requirements:
     - requests >=2.7,<3.0
     - tornado >=4.2.0
     - traitlets >=4.3.3
-    - watchdog ==0.10.3
+    - watchdog >=2.1.3
     - yarn-api-client >=1.0
 
 test:
