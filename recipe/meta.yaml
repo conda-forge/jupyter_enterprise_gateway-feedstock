@@ -28,6 +28,9 @@ requirements:
     - python >=3.5
     - docker-py >=3.5.0
     - future >=0.18.2
+# https://github.com/conda-forge/jupyter_enterprise_gateway-feedstock/pull/35#issuecomment-1099606384
+# https://github.com/jupyter-server/enterprise_gateway/pull/1046
+    - ipython_genutils >=0.2.0 # Include ipython_genutils in the requirements file for now and we'll remove it in the next release.
     - jinja2 >=3.1
     - jupyter_client >=6.1,<7.0
     - jupyter_core >=4.6.0
