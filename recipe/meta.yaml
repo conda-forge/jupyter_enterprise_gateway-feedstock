@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "2.6.0" %}
-{% set sha256 = "f4505ffc72d73caecaccbcb0cc0e6aa8941bc5f2d5630dec846b2b00dd63e13d" %}
+{% set version = "3.0.0" %}
+{% set sha256 = "53b73de87b1a91139d1e9cfd062f7eadf0aa3a2ccb9afd052699d7a537933d1c" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script:
     - python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -21,28 +21,25 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.7
     - pip
+    - hatchling >=1.5
 
   run:
-    - python >=3.5
+    - python >=3.7
     - docker-py >=3.5.0
-    - future >=0.18.2
-# https://github.com/conda-forge/jupyter_enterprise_gateway-feedstock/pull/35#issuecomment-1099606384
-# https://github.com/jupyter-server/enterprise_gateway/pull/1046
-    - ipython_genutils >=0.2.0 # Include ipython_genutils in the requirements file for now and we'll remove it in the next release.
     - jinja2 >=3.1
-    - jupyter_client >=6.1,<7.0
-    - jupyter_core >=4.6.0
-    - jupyter_server >=1.2
-    - paramiko >=2.1.2
-    - pexpect >=4.2.0
+    - jupyter_client >=6.1.5,<7.0
+    - jupyter_core >=4.7.0
+    - jupyter_server >=1.3
+    - paramiko >=2.11
+    - pexpect >=4.8.0
     - pycryptodomex >=3.9.7
-    - python-kubernetes >=4.0.0
+    - python-kubernetes >=18.20.0
     - pyzmq >=17.0.0
-    - requests >=2.7,<3.0
+    - requests >=2.14.2
     - tornado >=6.1
-    - traitlets >=4.3.3
+    - traitlets >=5.3.0
     - watchdog >=2.1.3
     - yarn-api-client >=1.0
 
