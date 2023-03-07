@@ -1,6 +1,6 @@
 {% set name = "jupyter_enterprise_gateway" %}
-{% set version = "3.2.0" %}
-{% set sha256 = "e98f5857027d9bd7e835c1056fc26ed132f7bdb07f696eb420338f47ed6efd7f" %}
+{% set version = "3.2.1" %}
+{% set sha256 = "ece1b0171a9d14a4c6e1c61296cb2ef1f1905a9238963cb667980fb04b573281" %}
 
 package:
   name: {{ name|lower }}
