@@ -1,11 +1,11 @@
-About jupyter_enterprise_gateway
-================================
+About jupyter_enterprise_gateway-feedstock
+==========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_enterprise_gateway-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jupyter/enterprise_gateway
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyter_enterprise_gateway-feedstock/blob/main/LICENSE.txt)
 
 Summary: A web server for spawning and communicating with remote Jupyter kernels
 
