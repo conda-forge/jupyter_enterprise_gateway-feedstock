@@ -8,12 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script:
     - python -m pip install --no-deps --ignore-installed .
   entry_points:
@@ -21,12 +21,12 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - hatchling >=1.5
 
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - docker-py >=3.5.0
     - future
     - jinja2 >=3.1
@@ -45,6 +45,8 @@ requirements:
     - yarn-api-client >=1.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - enterprise_gateway
     - enterprise_gateway.services
